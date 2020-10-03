@@ -1,4 +1,4 @@
-@@import "utf-8";
+@import "utf-8";
 /* ========================================
     リセットcss
 ========================================= */
@@ -806,4 +806,111 @@ footer{
 }
 .clear{
   clear: both;
+}
+
+/* ========================================
+    intro
+========================================= */
+div#main2{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#main2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#content2 h2{
+    font-size: 25px;
+    border-left: 3px solid #181818;
+    border-bottom: 1px solid #181818;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#content2 p{
+  line-height: normal;
+}
+#content3 h2{
+    font-size: 25px;
+    border-left: 3px solid #181818;
+    border-bottom: 1px solid #181818;
+    margin: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#content3 p{
+  line-height: normal;
+}
+
+#content3 p.yuni{
+  text-align: center;
+  font-size: 25px;
+}
+#content3 img{
+  display:block;
+  margin: 0 auto;
+}
+
+
+
+#link h2{
+    font-size: 25px;
+    border-left: 3px solid #181818;
+    border-bottom: 1px solid #181818;
+    margin: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#link li a{
+  color: blue;
+}
+
+/* ========================================
+    intro
+========================================= */
+div#main3{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+div#main3 iframe{
+  width: 100%;
+  margin: 15px;
+}
+
+
+caption{
+  text-align:center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+table,th,td{
+  border: 1px #000000 solid;
+  font-size: 30px;
+  margin: 15px;
+  text-align: center;
+}
+/* ========================================
+    intro
+========================================= */
+.content00 h2{
+    font-size: 25px;
+    border-left: 3px solid #181818;
+    border-bottom: 1px solid #181818;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+
+.content00 iframe{
+  display: block;
+  margin: 0 auto;
 }
