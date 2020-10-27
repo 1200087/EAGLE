@@ -633,8 +633,13 @@ div#right{
 div#right ul li{
   width: 150px;
   height: 150px;
-  margin-bottom: 10px;
   margin: 10px auto 10px auto;
+  background-color: white;
+}
+
+div#right ul li a#inst_icon{
+  margin: 37.5px;
+  line-height: 110px;
 }
 
 /* ========================================
@@ -723,7 +728,7 @@ div #customer a{
   	color: #fff;
     text-align: center;
   	border: none;
-    width: 150px;
+    width: 250px;
   	border-radius: 25px;
   	padding: 10px;
   	font-size: 18px;
@@ -913,4 +918,85 @@ table,th,td{
 .content00 iframe{
   display: block;
   margin: 0 auto;
+}
+/* ========================================
+    news
+========================================= */
+div#main_news{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#main_news h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0 ;
+}
+
+#content_news {
+    border-bottom: 1px solid #181818;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+
+div#content_news  dt{
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+div#content_news  dd{
+  font-size: 20px;
+  margin-bottom: 8px;
+  border-bottom: 1px dotted #999;
+}
+
+/* ========================================
+     question
+========================================= */
+
+div#main_question{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+#main_question h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0 ;
+}
+.content2_quwstion h2{
+    font-size: 25px;
+    background: url(images/soccer.png) no-repeat;
+    border-bottom: 1px solid #181818;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 35px;
+    padding-bottom: 5px;
+}
+.content2_quwstion p{
+  line-height: normal;
+  margin-left: 20px;
+  font-size: 20px;
+
+}
+
+
+
+#link_quwstion h2{
+    font-size: 25px;
+    border-left: 3px solid #181818;
+    border-bottom: 1px solid #181818;
+    margin: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#link_quwstion li a{
+  color: blue;
 }
